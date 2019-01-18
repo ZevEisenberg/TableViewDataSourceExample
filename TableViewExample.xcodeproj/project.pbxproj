@@ -13,6 +13,7 @@
 		5BCE1DE121F15CFD0067D1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE1DE021F15CFD0067D1B5 /* Assets.xcassets */; };
 		5BCE1DE421F15CFD0067D1B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE1DE221F15CFD0067D1B5 /* LaunchScreen.storyboard */; };
 		5BCE1DEC21F15DED0067D1B5 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE1DEB21F15DED0067D1B5 /* ImageCell.swift */; };
+		5BCE1DEE21F1644F0067D1B5 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE1DED21F1644F0067D1B5 /* DataSource.swift */; };
 		A71A7CA7E9628A62CE39ED21 /* Pods_TableViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0817FA36B101BE54DE0761E5 /* Pods_TableViewExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		5BCE1DE321F15CFD0067D1B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BCE1DE521F15CFD0067D1B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BCE1DEB21F15DED0067D1B5 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		5BCE1DED21F1644F0067D1B5 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		B3329191C7CC76A396EE7177 /* Pods-TableViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewExample.debug.xcconfig"; path = "Target Support Files/Pods-TableViewExample/Pods-TableViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 		C468AC0F0252792E2E9A7270 /* Pods-TableViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewExample.release.xcconfig"; path = "Target Support Files/Pods-TableViewExample/Pods-TableViewExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 			children = (
 				5BCE1DD921F15CFB0067D1B5 /* AppDelegate.swift */,
 				5BCE1DDB21F15CFB0067D1B5 /* ViewController.swift */,
+				5BCE1DED21F1644F0067D1B5 /* DataSource.swift */,
 				5BCE1DEB21F15DED0067D1B5 /* ImageCell.swift */,
 				5BCE1DDD21F15CFB0067D1B5 /* Main.storyboard */,
 				5BCE1DE021F15CFD0067D1B5 /* Assets.xcassets */,
@@ -213,6 +216,7 @@
 			files = (
 				5BCE1DDC21F15CFB0067D1B5 /* ViewController.swift in Sources */,
 				5BCE1DDA21F15CFB0067D1B5 /* AppDelegate.swift in Sources */,
+				5BCE1DEE21F1644F0067D1B5 /* DataSource.swift in Sources */,
 				5BCE1DEC21F15DED0067D1B5 /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
