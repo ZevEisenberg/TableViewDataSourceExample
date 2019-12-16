@@ -5,12 +5,12 @@ DEPENDENCIES:
   - Anchorage
 
 SPEC REPOS:
-  https://cdn.cocoapods.org/:
+  trunk:
     - Anchorage
 
 SPEC CHECKSUMS:
   Anchorage: a187da0bc9b07440637d42c8744b8c82a4490295
 
-PODFILE CHECKSUM: 8e40c4d1de72b7e32d4a90e591605029acb136bd
+PODFILE CHECKSUM: 6820c9b0a3ac7e4ccb95efccd1467c769a8e5f0c
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4
