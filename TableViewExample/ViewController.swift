@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         view.addSubview(tableView)
-        tableView.edgeAnchors == view.edgeAnchors
+        tableView.edgeAnchors == view.safeAreaLayoutGuide.edgeAnchors
 
         tableView.dataSource = self
         tableView.delegate = self
